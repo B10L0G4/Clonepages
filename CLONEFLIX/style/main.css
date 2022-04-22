@@ -11,8 +11,7 @@
 body{
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-    border: 5px solid rgb(153, 21, 214);
+
     
 }/* ELEMENTOS BASE */
 header .container{
@@ -21,7 +20,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
     margin-right: 20px;
-    border: 5px solid rgb(150, 230, 22);
+
 }
 header .logo{
     margin-left: 5px;
@@ -29,49 +28,50 @@ header .logo{
     font-family: "Arial Black";
     font-size: 40px;
     margin-right: 20px;
-    border: 5px solid rgb(19, 189, 219);
+
 }
 header .nav{
     text-decoration: none;
     color: #AAA;
     margin-right: 0px;
-    border: 5px solid rgb(211, 219, 180);
+
 }
 header nav a{
     color: #fff;
     font-size: 20px;
-    border: 5px solid rgb(34, 202, 110);
+
     margin-right: 10px;
 
 }
 /* AreA DE DINOS */
 .principal{
     font-size: 20px;
-    background: url('/FRONT-END/Clonepages/CLONEFLIX/img/dinos.jpg');
-    background: linear-gradient(rgba(0,0,0,.50),(rgba(0,0,0,.50),100%));
+    background: url('/FRONT-END/Clonepages/CLONEFLIX/img/dinos2.png');
+    background: linear-gradient(rgba(0,0,0,.60),(rgba(0,0,0,.60),100%));
     height: 400px;
     background-size:cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:column;
+    justify-content:start;
     align-content: flex-start;
-    border: 8px solid rgb(49, 126, 214);
+
+
 }
 .principal .descricao{
     margin-bottom: 90px;
+    margin-top: 15px;
 }
 .container{
-    border: 8px solid rgb(214, 21, 47);
+ 
 }
 .titulo{
-    font-size: 40px;
+    margin-top: 35px;
+    font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .botao{
-    background-color:rgba(0,0,0,.50);
-    border: none;
-    color: white;
+    color: black;
     padding: 15px 15px;
     margin-right: 15px;
     font-size: 15px;
@@ -80,10 +80,22 @@ header nav a{
 
 }
 .botao:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 .botao i{
     margin-right: 8px;
+
+}
+/*
+Classes Wrappers ou containers são enverlopes onde 
+os itens serão colocados afim de facilitar 
+a manipulação de vários elementos 
+*/
+
+.carousel .item {
+    height: 100%;
+    width: 100%;
+    display: block;
 
 }
