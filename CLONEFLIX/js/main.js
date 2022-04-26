@@ -1,5 +1,5 @@
 const slides = document.querySelectorAll('[data-js="carosel_item"]');
-const nextButton = document.querySelectorAll('[data-js="carosel_button--next"]');
+const nextButton = document.querySelector('[data-js="carosel_button--next"]');
 
 let currentSlideIndex = 0;
 
