@@ -9,6 +9,9 @@ e especificações.
 E este desafio vem como um presente para ele , onde ele tenha informações facilitadas de sua preferencia de tema do momento. 
 DinoNerd é uma referencia especial ao apelido que ele adotou. 
 
+### site com consumíveis Jquery : https://owlcarousel2.github.io/OwlCarousel2/index.html
+### site com consumíveis de icones em JS : https://fontawesome.com/
+
 ## DESAFIOS - a serem implementados
 
 - Link nos Botões 
